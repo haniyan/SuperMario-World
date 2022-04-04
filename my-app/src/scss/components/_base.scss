@@ -1,11 +1,21 @@
 body {
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 
-  //background-image: url(../../public/assets/background.jpg)
 
+  width: 100%;
+
+
+  background-color: rgba(143, 204, 215, 0.73);
+
+  .windowApp {
+
+
+
+    //background-image: url(../../public/assets/background.jpg)
+  }
 
 
 }
