@@ -4,17 +4,120 @@ body {
   align-items: center;
   flex-direction: column;
 
+  width: 2500px;
+  height: 100vh;
 
-  width: 100%;
-
-
-  background-color: rgba(143, 204, 215, 0.73);
 
   .windowApp {
+    border: 1px solid red;
+
+    width: 80vw;
+    height: 55vh;
+    display: flex;
+    background-position: center;
+    background-size: cover;
 
 
+    .leftColumn {
+      border: 1px solid red;
+      width: 70%;
 
-    //background-image: url(../../public/assets/background.jpg)
+      .mapSection {
+        height: 65%;
+        border: 1px solid red;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        #map {
+          height: 80%;
+          width: 80%;
+          border: 1px solid red;
+        }
+      }
+
+      .tipSection {
+        height: 35%;
+        border: 1px solid red;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .tipBox {
+          width: 20rem;
+          height: 12rem;
+          margin: 5rem;
+          border: 1px solid red;
+        }
+
+      }
+
+    }
+
+    .rightColumn {
+      width: 30%;
+      border: 1px solid red;
+
+      .btnSection {
+        border: 1px solid red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 10%;
+
+        .searchBtn {
+          border: 1px solid red;
+          width: 5rem;
+          height: 5rem;
+          margin: 0 0.5rem 2rem 0;
+
+        }
+
+        .favBtn {
+          border: 1px solid red;
+          width: 5rem;
+          height: 5rem;
+          margin: 0 0.5rem 2rem 0;
+        }
+
+      }
+
+      .mainSection {
+        border: 3px solid green;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 90%;
+
+
+        .icon {
+          border: 1px solid red;
+          height: 10%;
+          width: 100%;
+        }
+
+        .infoContent {
+          border: 1px solid red;
+          height: 40%;
+          width: 100%;
+        }
+
+        .infoBox {
+          border: 1px solid red;
+          height: 60%;
+          width: 100%;
+        }
+
+
+      }
+
+
+    }
+
+
   }
 
 

@@ -5,8 +5,8 @@ export const MainSection = () => {
         <div className="mainSection">
             <button className="addToFav"/>
             <div className="icon"/>
-            <div className="infoBox"/>
             <h1 className="infoContent" >Co robić we Wrocławiu?</h1>
+            <div className="infoBox"/>
         </div>
     );
 };
