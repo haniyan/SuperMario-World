@@ -74,12 +74,14 @@
 // };
 
 
+
+
 const markers = [
     [
         "Bastion Ceglarski",
         51.1119176501328,
         17.045646173017303,
-        "url",
+        "url'(../../assets/markers/bastion_ceglarski.jpg)'",
         38,
         38
     ],
@@ -87,7 +89,7 @@ const markers = [
         "Panorama Racławicka",
         51.11021624526383,
         17.044375285388092,
-        "url",
+        "url'(../../assets/markers/panorama_raclawicka.jgp)'",
         38,
         38
     ],
@@ -95,7 +97,7 @@ const markers = [
         "Hydropolis",
         51.10431872983064,
         17.05657562586204,
-        "url",
+        "url'(../../assets/markers/hydropolis.jgp)'",
         38,
         38
     ],
@@ -103,7 +105,7 @@ const markers = [
         "Kolejkowo",
         51.094666765245464,
         17.019643214224054,
-        "url",
+        "url'(../../assets/markers/kolejkowo.jgp)'",
         38,
         38
     ],
@@ -111,7 +113,7 @@ const markers = [
         "Movie Gates",
         51.10952784193189,
         17.028997310517294,
-        "url",
+        "url'(../../assets/markers/movie_gates.jgp)'",
         38,
         38
     ],
@@ -119,7 +121,7 @@ const markers = [
         "Stadion Wrocław",
         51.1413487306034,
         16.94381711422491,
-        "url",
+        "url'(../../assets/markers/stadion_wroclaw.jgp)'",
         38,
         38
     ],
@@ -127,7 +129,7 @@ const markers = [
         "Grabowy Labirynt",
         51.06265193473887,
         17.072839756551073,
-        "url",
+        "url'(../../assets/markers/grabowy_labirynt.jgp)'",
         38,
         38
     ],
@@ -135,7 +137,7 @@ const markers = [
         "Kolorowe Podwórka",
         51.12228182464003,
         17.043168998879644,
-        "url",
+        "url'(../../assets/markers/kolorowe_podworka.jgp)'",
         38,
         38
     ],
@@ -143,7 +145,7 @@ const markers = [
         "Afrykarium",
         51.10451887607578,
         17.075230985388057,
-        "url",
+        "url'(../../assets/markers/afrykarium.jgp)'",
         38,
         38
     ],
@@ -151,7 +153,7 @@ const markers = [
         "Zoo Wrocław",
         51.104260448470065,
         17.074218448962615,
-        "url",
+        "url'(../../assets/markers/zoo_wroclaw.jgp)'",
         38,
         38
     ],
@@ -159,7 +161,7 @@ const markers = [
         "Fontanna multimedialna ",
         51.10892854402768,
         17.078992114224192,
-        "url",
+        "url'(../../assets/markers/fontanna_multimedialna.jgp)'",
         38,
         38
     ],
@@ -167,7 +169,7 @@ const markers = [
         "Jaz Rędzin",
         51.155911196386924,
         16.962246985388994,
-        "url",
+        "url'(../../assets/markers/.jgp)'",
         38,
         38
     ],
@@ -175,14 +177,14 @@ const markers = [
         "Ruiny Grodu Sołtysowice",
         51.15372263594108,
         17.08074372220435,
-        "url",
+        "url'(../../assets/markers/ruiny_grodu_soltysowice.jgp)'",
         38,
         38
     ], [
         "Labirynt z kukurydzy",
         50.970526009659444,
         16.939834043057832,
-        "url",
+        "url'(../../assets/markers/labirynt_z_kukurydzy.jgp)'",
         38,
         38
     ],
@@ -190,7 +192,7 @@ const markers = [
         "Muzeum motoryzacji Topacz",
         51.034120611983774,
         16.990332935458753,
-        "url",
+        "url'(../../assets/markers/muzeum_motoryzacji_topacz.jgp)'",
         38,
         38
     ],
@@ -198,7 +200,7 @@ const markers = [
         "Muzeum powozów w Galowicach",
         50.98325042450391,
         17.00179668353211,
-        "url",
+        "url'(../../assets/markers/muzeum_powozow.jgp)'",
         38,
         38
     ],
@@ -206,7 +208,7 @@ const markers = [
         "Muzeum Sztuki Mieszczańskiej",
         51.10959452313832,
         17.0321166065519,
-        "url",
+        "url'(../../assets/markers/muzeum_sztuki_mieszczanskiej.jgp)'",
         38,
         38
     ],
@@ -214,7 +216,7 @@ const markers = [
         "Park trampolin",
         51.13559323770006,
         17.066244962376732,
-        "url",
+        "url'(../../assets/markers/park_trampolin.jgp)'",
         38,
         38
     ],
@@ -222,7 +224,7 @@ const markers = [
         "Park trampolin",
         51.08688084297076,
         17.051739575811656,
-        "url",
+        "url'(../../assets/markers/park_trampolin.jgp)'",
         38,
         38
     ],
@@ -230,7 +232,7 @@ const markers = [
         "Ostrów Tumski",
         51.114618405396264,
         17.04675865418171,
-        "url",
+        "url'(../../assets/markers/.jgp)'",
         38,
         38
     ],
@@ -239,7 +241,7 @@ const markers = [
         "Ogród Japonski",
         51.10980856913848,
         17.079087614224317,
-        "url",
+        "url'(../../assets/markers/ogrod_japonski.jgp)'",
         38,
         38
     ],
@@ -247,7 +249,7 @@ const markers = [
         "Wieza widokowa w Kotowicach",
         51.04175294142379,
         17.233980112369544,
-        "url",
+        "url'(../../assets/markers/wieza_widokowa.jgp)'",
         38,
         38
     ],
@@ -255,7 +257,7 @@ const markers = [
         "Kłódki zakochanych",
         51.236836703851836,
         17.04502921533447,
-        "url",
+        "url'(../../assets/markers/klodki_zakochanych.jgp)'",
         38,
         38
     ],
@@ -263,7 +265,7 @@ const markers = [
         "Historyczny tramwaj",
         51.09461156734288,
         16.984491230686118,
-        "url",
+        "url'(../../assets/markers/historyczny_tramwaj.jgp)'",
         38,
         38
     ],
@@ -271,7 +273,7 @@ const markers = [
         "Winna Góra",
         52.205899366008055,
         17.44761703760992,
-        "url",
+        "url'(../../assets/markers/winna_gora.jgp)'",
         38,
         38
     ],
@@ -279,7 +281,7 @@ const markers = [
         "Plac Strzegomski",
         51.112971810914544,
         17.0059671853882,
-        "url",
+        "url'(../../assets/markers/plac_strzegomski.jgp)'",
         38,
         38
     ],
@@ -287,7 +289,7 @@ const markers = [
         "Mostek pokutnic",
         51.10975912565731,
         17.034684627715585,
-        "url",
+        "url'(../../assets/markers/mostek_pokutnic.jgp)'",
         38,
         38
     ],
@@ -295,7 +297,7 @@ const markers = [
         "Centrum historii Zajezdnia",
         51.09684443511585,
         16.99136605655169,
-        "url",
+        "url'(../../assets/markers/centrum_historii_zajezdnia.jgp)'",
         38,
         38
     ],
@@ -303,7 +305,7 @@ const markers = [
         "Małe Muzeum Ludowe",
         51.330871799656606,
         17.023374673877413,
-        "url",
+        "url'(../../assets/markers/male_muzeum_ludowe.jgp)'",
         38,
         38
     ],
@@ -311,7 +313,7 @@ const markers = [
         "Dab Andrzej",
         51.10426907047156,
         16.826558383534373,
-        "url",
+        "url'(../../assets/markers/dab_andrzej.jgp)'",
         38,
         38
     ],
@@ -319,7 +321,7 @@ const markers = [
         "Galeria Sztuki Tetno",
         51.11225536129296,
         17.030702014224254,
-        "url",
+        "url'(../../assets/markers/galeria_sztuki_tetno.jgp)'",
         38,
         38
     ],
@@ -327,15 +329,15 @@ const markers = [
         "Ogród botaniczny",
         51.11719029940949,
         17.047551573273854,
-        "url",
+        "url'(../../assets/markers/ogrod_botaniczny.jgp)'",
         38,
         38
     ],
     [
-        "Sky  Tower",
+        "Sky Tower",
         51.09465607017652,
         17.019518397025546,
-        "url",
+        "url'(../../assets/markers/sky_tower.jgp)'",
         38,
         38
     ],
@@ -343,7 +345,7 @@ const markers = [
         "Samolot szkolno-treningowy",
         51.121289368558514,
         16.914969708949794,
-        "url",
+        "url'(../../assets/markers/samolot_szkoleniowo_treningowy.jgp)'",
         38,
         38
     ],
@@ -351,7 +353,7 @@ const markers = [
         "Park mamuta",
         51.08121672038618,
         16.975475541206503,
-        "url",
+        "url'(../../assets/markers/park_mamuta.jgp)'",
         38,
         38
     ],
@@ -359,7 +361,7 @@ const markers = [
         "Park Grabiszynski",
         51.08802168538187,
         16.97866680310278,
-        "url",
+        "url'(../../assets/markers/park_grabiszynski.jgp)'",
         38,
         38
     ],
@@ -367,7 +369,7 @@ const markers = [
         "Ludkoland",
         51.1028553391116,
         17.081240771896574,
-        "url",
+        "url'(../../assets/markers/ludkoland.jgp)'",
         38,
         38
     ],
@@ -375,7 +377,7 @@ const markers = [
         "Motylarnia",
         51.104527637741,
         17.071921788618724,
-        "url",
+        "url'(../../assets/markers/motylarnia.jgp)'",
         38,
         38
     ],
@@ -383,7 +385,7 @@ const markers = [
         "Iglica",
         51.108029910802465,
         17.0755695922009,
-        "url",
+        "url'(../../assets/markers/iglica.jgp)'",
         38,
         38
     ],
@@ -391,7 +393,7 @@ const markers = [
         "Fort Muzeum Militarne",
         51.1641887947113,
         17.000337056552947,
-        "url",
+        "url'(../../assets/markers/fort_muzeum_militarne.jgp)'",
         38,
         38
     ],
@@ -399,7 +401,7 @@ const markers = [
         "Plac zabaw",
         51.100260622151524,
         17.007106644313247,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -408,7 +410,7 @@ const markers = [
         "Plac zabaw",
         51.10647752763872,
         17.035890515983976,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -416,7 +418,7 @@ const markers = [
         "Plac zabaw",
         51.13428313430891,
         16.98026211151394,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -424,7 +426,7 @@ const markers = [
         "Plac zabaw",
         51.13034447208766,
         16.96678375738788,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -432,7 +434,7 @@ const markers = [
         "Plac zabaw",
         51.119095836190766,
         17.079487254474895,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -441,7 +443,7 @@ const markers = [
         "Plac zabaw",
         51.100235305565924,
         17.058029582041357,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
@@ -450,7 +452,7 @@ const markers = [
         "Bobolandia",
         51.06820867284158,
         17.097340037939617,
-        "url",
+        "url'(../../assets/markers/plac_zabaw.jgp)'",
         38,
         38
     ],
