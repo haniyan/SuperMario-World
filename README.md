@@ -1,2 +1,2 @@
-# SuperMario-World
+# WroclawWeekend
 Javascript React project with using API
