@@ -8,10 +8,10 @@ import BackgroundImage from '../../assets/background.jpg'
 export const StartView = () => {
     return (
 
-            <div className="windowApp" style={{backgroundImage: `url(${BackgroundImage})`}}>
-                <LeftColumn/>
-                <RightColumn/>
-            </div>
+        <div className="windowApp" style={{backgroundImage: `url(${BackgroundImage})`}}>
+            <LeftColumn/>
+            <RightColumn/>
+        </div>
     )
 
 }
