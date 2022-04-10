@@ -7,16 +7,17 @@ import {MyMap} from "./MapSection";
 
 export const LeftColumn = () => {
     return (
-        <>
+
             <div className="leftColumn">
                 <div className="mapSection">
-                    <MyMap/>
-
+                    <div id="map">
+                        <MyMap/>
+                    </div>
                 </div>
                 <TipSection/>
 
             </div>
-        </>
+
     )
 }
 

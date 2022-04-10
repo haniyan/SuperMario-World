@@ -1,6 +1,10 @@
 import React, {useState} from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
-import MyMarkers from "../../data/wroclaw.json"
+import MyMarkers from "../../data/wroclaw.json";
+
+import MarkerBtn from '../../assets/markers/marker.png';
+
+
 
 
 export function MyMap() {
@@ -8,10 +12,16 @@ export function MyMap() {
     const [viewport, setViewport] = useState({
         latitude: 51.107883,
         longitude: 17.038538,
-        width: "50vw",
-        height: "20vh",
-        zoom: 10,
+        // width: "50vw",
+        // height: "20vh",
+        // zoom: 10,
     });
+
+    const markerHandleClick = ()=>{
+
+        console.log("ippps")
+
+    }
 
 
     return (
@@ -29,7 +39,8 @@ export function MyMap() {
                     <Marker key={marker.properties.id}
                             latitude={marker.geometry.coordinates[1]}
                             longitude={marker.geometry.coordinates[0]}>
-                        <div>PLACE</div>
+                        <button onClick={markerHandleClick} style={{backgroundImage: `url(${MarkerBtn})`}} className="markerBtn"/>
+
                     </Marker>)
                 )}
 

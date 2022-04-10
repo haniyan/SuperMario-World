@@ -52,7 +52,6 @@ body {
         }
 
 
-
       }
 
     }
@@ -75,15 +74,31 @@ body {
           margin: 0 0.5rem 2rem 0;
           background-repeat: no-repeat;
           background-size: cover;
+          cursor: pointer;
+
+          &:hover {
+            width: 70px;
+            height: 70px;
+            animation: rotate 2s infinite;
+          }
 
         }
 
         .favBtn {
           width: 65px;
           height: 65px;
-          margin: 0 0.5rem 2rem 0;
+
+          margin: 0 0.5rem 2rem 5px;
           background-size: cover;
           background-repeat: no-repeat;
+          cursor: pointer;
+
+          &:hover {
+            width: 70px;
+            height: 70px;
+            margin-left: 0;
+            animation: rotate 2s infinite;
+          }
         }
 
       }
@@ -114,6 +129,11 @@ body {
           background-position: center;
           display: block;
           align-self: end;
+          cursor: pointer;
+
+          &:hover {
+            animation: rotate 2s infinite;
+          }
 
         }
 
@@ -130,7 +150,7 @@ body {
           justify-content: center;
           align-items: center;
           color: #e82c50;
-          font-size:3rem;
+          font-size: 3rem;
           line-height: 1.5;
           font-family: 'Rubik Moonrocks', cursive;
 
@@ -192,5 +212,28 @@ body {
   }
   20%, 24%, 55% {
     text-shadow: none;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  25% {
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg);
+  }
+  75% {
+    -webkit-transform: rotate3d(0, 0, 1, 270deg);
+    transform: rotate3d(0, 0, 1, 270deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg);
   }
 }
