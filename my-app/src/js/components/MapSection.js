@@ -17,9 +17,9 @@ export function MyMap() {
         // zoom: 10,
     });
 
-    const markerHandleClick = ()=>{
+    const markerHandleClick = (marker)=>{
 
-        console.log("ippps")
+        console.log("ippps", marker)
 
     }
 
@@ -39,7 +39,7 @@ export function MyMap() {
                     <Marker key={marker.properties.id}
                             latitude={marker.geometry.coordinates[1]}
                             longitude={marker.geometry.coordinates[0]}>
-                        <button onClick={markerHandleClick} style={{backgroundImage: `url(${MarkerBtn})`}} className="markerBtn"/>
+                        <button onClick={() => markerHandleClick(marker)} style={{backgroundImage: `url(${MarkerBtn})`}} className="markerBtn"/>
 
                     </Marker>)
                 )}
