@@ -22,11 +22,21 @@
   }
 
   .tipText {
-
+    margin-top: 20px;
     height: 50%;
     width: 100%;
 
   }
 
+
+}
+
+.addToFavBox{
+  border-radius: 30px;
+
+  -webkit-box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+  -moz-box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+  box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+  background-color: rgba(255, 255, 255, 0.88);
 
 }

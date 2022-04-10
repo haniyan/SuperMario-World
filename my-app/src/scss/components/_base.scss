@@ -43,13 +43,15 @@ body {
         align-items: center;
         justify-content: center;
 
-        .tipBox {
+        .tipBox, .addToFavBox {
           width: 400px;
           height: 200px;
           margin: 5rem;
 
 
         }
+
+
 
       }
 
@@ -135,7 +137,7 @@ body {
           height: 40%;
           width: 100%;
 
-          animation: flickerRed 2s infinite;
+          animation: flickerGreen 2s infinite;
         }
 
         .infoBox {

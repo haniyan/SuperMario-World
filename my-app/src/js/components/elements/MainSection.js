@@ -4,51 +4,45 @@ import MainDiv from '../../../assets/markers/main_div.png';
 import FavBtn from '../../../assets/markers/fav_btn.png';
 
 
-
-
 export const MainSection = () => {
 //STATE DO INFOCONTENT
 
-    const [color, setColor] =useState('#0e8d63')
-    // const [text, setText] =useState(["CO ROBIĆ WE WROCŁAWIU?"])
+    const [color, setColor] = useState('#15d326')
+
 
 //FUNKCJE INFOCONTENT
-    function changeTextColorInfoContent(){
-        setColor(setColor=> '#e34864')
+    function changeTextColorInfoContent() {
+        setColor(setColor => '#e30d3e')
     }
-    const infoContentAnimation=()=>{
 
-        setTimeout(()=>{
+    const infoContentAnimation = () => {
+        setTimeout(() => {
             changeTextColorInfoContent()
 
-        },7000)
+        }, 8000)
 
     }
-
-    //WYSWIETLANIE PO LITERCE - react typical
-
-
 
 
     return (
         infoContentAnimation(),
-        <div className="mainSection">
-            <button className="addToFav" style={{backgroundImage: `url(${FavBtn})`}}/>
-            <div className="icon"/>
-            <h1 className="infoContent" style={{color: `${color}`, fontSize: "40px", textAlign: "center"}}>
-            <Typical
-                loop = {Infinity}
-                wrapper="b"
-                steps={
-                    ["CO ROBIĆ WE WROCŁAWIU?",
-                        7000,
-                        "WYBIERZ LOSOWE MIEJSCE NA MAPIE",
-                        7000,
-                    ]
-                }/>
+            <div className="mainSection">
+                <button className="addToFav" style={{backgroundImage: `url(${FavBtn})`}}/>
+                <div className="icon"/>
+                <h1 className="infoContent" style={{color: `${color}`, fontSize: "40px", textAlign: "center"}}>
+                    <Typical
+                        loop={1}
+                        wrapper="b"
+                        steps={
+                            ["CO ROBIĆ WE WROCŁAWIU?",
+                                5000,
+                                "WYBIERZ LOSOWE MIEJSCE NA MAPIE",
+                                5000,
+                            ]
+                        }/>
 
-            </h1>
-            <div className="infoBox" style={{backgroundImage: `url(${MainDiv})`}}/>
-        </div>
+                </h1>
+                <div className="infoBox" style={{backgroundImage: `url(${MainDiv})`}}/>
+            </div>
     );
 };
