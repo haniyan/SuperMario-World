@@ -18,7 +18,7 @@
         "properties": {
             "title":"Panorama Racławicka",
             "description": "",
-               "id": 2
+               "id": 24
         },
         "geometry": {
             "coordinates": [17.044375285388092,51.11021624526383],
@@ -30,7 +30,7 @@
         "properties": {
             "title": "Hydropolis",
             "description": "",
-               "id": 3
+               "id": 8
         },
         "geometry": {
             "coordinates": [17.05657562586204,51.10431872983064],
@@ -42,7 +42,7 @@
         "properties": {
             "title": "Kolejkowo",
             "description": "",
-               "id": 4
+               "id": 11
         },
         "geometry": {
             "coordinates": [17.019643214224054,51.094666765245464],
@@ -54,7 +54,7 @@
         "properties": {
             "title": "Movie Gates",
             "description": "",
-            "id": 5
+            "id": 18
         },
         "geometry": {
             "coordinates": [17.028997310517294,51.10952784193189],
@@ -66,7 +66,7 @@
         "properties": {
             "title": "Stadion Wrocław",
             "description": "",
-            "id": 6
+            "id": 39
         },
         "geometry": {
             "coordinates": [16.94381711422491,51.1413487306034],
@@ -90,7 +90,7 @@
         "properties": {
             "title": "Kolorowe Podwórka",
             "description": "",
-             "id": 8
+             "id":12
         },
         "geometry": {
             "coordinates": [17.043168998879644,51.12228182464003],
@@ -102,7 +102,7 @@
         "properties": {
             "title":  "Afrykarium",
             "description": "",
-            "id": 9
+            "id": 0
         },
         "geometry": {
             "coordinates": [17.075230985388057,51.10451887607578],
@@ -114,7 +114,7 @@
         "properties": {
             "title":  "Zoo Wrocław",
             "description": "",
-              "id": 10
+              "id": 42
         },
         "geometry": {
             "coordinates": [17.074218448962615,51.104260448470065],
@@ -126,7 +126,7 @@
         "properties": {
             "title": "Fontanna multimedialna ",
             "description": "",
-                "id": 11
+                "id": 4
         },
         "geometry": {
             "coordinates": [17.078992114224192,51.10892854402768],
@@ -150,7 +150,7 @@
         "properties": {
             "title": "Ruiny Grodu Sołtysowice",
             "description": "",
-                "id": 13
+                "id": 36
         },
         "geometry": {
             "coordinates": [16.939834043057832,50.970526009659444],
@@ -161,7 +161,7 @@
         "properties": {
             "title": "Labirynt z kukurydzy",
             "description": "",
-                "id": 14
+                "id": 13
         },
         "geometry": {
             "coordinates": [16.939834043057832, 50.970526009659444],
@@ -172,7 +172,7 @@
         "properties": {
             "title": "Muzeum motoryzacji Topacz",
             "description": "",
-                "id": 47
+                "id": 19
         },
         "geometry": {
             "coordinates": [16.990332935458753,51.034120611983774],
@@ -183,7 +183,7 @@
         "properties": {
         "title": "Muzeum powozów w Galowicach",
             "description": "",
-                "id": 15
+                "id": 20
     },
     "geometry": {
         "coordinates": [17.00179668353211,50.98325042450391],
@@ -194,7 +194,7 @@
         "properties": {
         "title":"Muzeum Sztuki Mieszczańskiej",
             "description": "",
-                "id": 16
+                "id": 21
     },
     "geometry": {
         "coordinates": [17.0321166065519,51.10959452313832],
@@ -205,7 +205,7 @@
         "properties": {
         "title": "Park trampolin",
             "description": "",
-                "id": 17
+                "id": 27
     },
     "geometry": {
         "coordinates": [17.066244962376732,51.13559323770006],
@@ -216,7 +216,7 @@
         "properties": {
         "title":  "Park trampolin",
             "description": "",
-                "id": 18
+                "id": 28
     },
     "geometry": {
         "coordinates": [17.051739575811656,51.08688084297076],
@@ -227,7 +227,7 @@
         "properties": {
         "title": "Ostrów Tumski",
             "description": "",
-                "id": 19
+                "id": 16
     },
     "geometry": {
         "coordinates": [17.04675865418171,51.114618405396264],
@@ -238,7 +238,7 @@
         "properties": {
         "title": "Ogród Japonski",
             "description": "",
-                "id": 20
+                "id": 23
     },
     "geometry": {
         "coordinates": [17.079087614224317,51.10980856913848],
@@ -249,7 +249,7 @@
         "properties": {
         "title":"Wieza widokowa w Kotowicach",
             "description": "",
-                "id": 21
+                "id": 40
     },
     "geometry": {
         "coordinates": [17.233980112369544,51.04175294142379],
@@ -260,7 +260,7 @@
         "properties": {
         "title":"Kłódki zakochanych",
             "description": "",
-                "id": 22
+                "id": 10
     },
     "geometry": {
         "coordinates": [17.04502921533447,51.236836703851836],
@@ -282,7 +282,7 @@
         "properties": {
         "title": "Winna Góra",
             "description": "",
-                "id": 24
+                "id": 41
     },
     "geometry": {
         "coordinates": [17.44761703760992,52.205899366008055],
@@ -293,7 +293,7 @@
         "properties": {
         "title":"Plac Strzegomski",
             "description": "",
-                "id": 25
+                "id": 29
     },
     "geometry": {
         "coordinates": [17.0059671853882,51.112971810914544],
@@ -304,7 +304,7 @@
         "properties": {
         "title": "Mostek pokutnic",
             "description": "",
-                "id": 26
+                "id": 17
     },
     "geometry": {
         "coordinates": [17.034684627715585, 51.10975912565731],
@@ -315,7 +315,7 @@
         "properties": {
         "title": "Centrum historii Zajezdnia",
             "description": "",
-                "id": 27
+                "id": 2
     },
     "geometry": {
         "coordinates": [16.99136605655169,51.09684443511585],
@@ -326,7 +326,7 @@
         "properties": {
         "title":  "Małe Muzeum Ludowe",
             "description": "",
-                "id": 28
+                "id": 15
     },
     "geometry": {
         "coordinates": [17.023374673877413,51.330871799656606],
@@ -337,7 +337,7 @@
         "properties": {
         "title": "Dab Andrzej",
             "description": "",
-                "id": 29
+                "id": 3
     },
     "geometry": {
         "coordinates": [16.826558383534373,51.10426907047156],
@@ -348,7 +348,7 @@
         "properties": {
         "title":"Galeria Sztuki Tetno",
             "description": "",
-                "id": 30
+                "id": 6
     },
     "geometry": {
         "coordinates": [17.030702014224254,51.11225536129296],
@@ -359,7 +359,7 @@
         "properties": {
         "title":  "Ogród botaniczny",
             "description": "",
-                "id": 31
+                "id": 22
     },
     "geometry": {
         "coordinates": [17.047551573273854,51.11719029940949],
@@ -370,7 +370,7 @@
         "properties": {
         "title": "Sky Tower",
             "description": "",
-                "id": 32
+                "id": 38
     },
     "geometry": {
         "coordinates": [17.019518397025546,51.09465607017652],
@@ -382,7 +382,7 @@
         "properties": {
         "title":  "Samolot szkolno-treningowy",
             "description": "",
-                "id": 33
+                "id": 37
     },
         "geometry": {
         "coordinates": [16.914969708949794,51.121289368558514],
@@ -394,7 +394,7 @@
         "properties": {
         "title":  "Park mamuta",
             "description": "",
-                "id": 34
+                "id": 26
     },
         "geometry": {
         "coordinates": [16.975475541206503,51.08121672038618],
@@ -406,7 +406,7 @@
         "properties": {
         "title":  "Park Grabiszynski",
             "description": "",
-                "id": 35
+                "id": 25
     },
         "geometry": {
         "coordinates": [16.97866680310278,51.08802168538187],
@@ -418,7 +418,7 @@
         "properties": {
         "title":  "Ludkoland",
             "description": "",
-                "id": 36
+                "id": 14
     },
         "geometry": {
         "coordinates": [17.081240771896574,51.1028553391116],
@@ -430,7 +430,7 @@
         "properties": {
         "title":   "Motylarnia",
             "description": "",
-                "id": 37
+                "id": 18
     },
         "geometry": {
         "coordinates": [17.071921788618724,51.104527637741],
@@ -442,7 +442,7 @@
         "properties": {
         "title":"Iglica",
             "description": "",
-                "id": 38
+                "id": 9
     },
         "geometry": {
         "coordinates": [17.0755695922009,51.108029910802465],
@@ -454,7 +454,7 @@
         "properties": {
         "title":"Fort Muzeum Militarne",
             "description": "",
-                "id": 39
+                "id": 5
     },
         "geometry": {
         "coordinates": [17.000337056552947,51.1641887947113],
@@ -466,7 +466,7 @@
         "properties": {
         "title":  "Plac zabaw",
             "description": "",
-                "id": 40
+                "id": 30
     },
         "geometry": {
         "coordinates": [17.007106644313247,51.100260622151524],
@@ -478,7 +478,7 @@
         "properties": {
         "title":  "Plac zabaw",
             "description": "",
-                "id": 41
+                "id": 31
     },
         "geometry": {
         "coordinates": [17.035890515983976,51.10647752763872],
@@ -490,7 +490,7 @@
         "properties": {
         "title": "Bobolandia",
             "description": "",
-                "id": 42
+                "id": 43
     },
         "geometry": {
         "coordinates": [17.097340037939617,51.06820867284158],
@@ -502,7 +502,7 @@
         "properties": {
         "title":"Plac zabaw",
             "description": "",
-                "id": 43
+                "id": 32
     },
         "geometry": {
         "coordinates": [16.98026211151394,51.13428313430891],
@@ -514,7 +514,7 @@
         "properties": {
         "title": "Plac zabaw",
             "description": "",
-                "id": 44
+                "id": 33
     },
         "geometry": {
         "coordinates": [16.96678375738788,51.13034447208766],
@@ -526,7 +526,7 @@
         "properties": {
         "title":   "Plac zabaw",
             "description": "",
-                "id": 45
+                "id": 34
     },
         "geometry": {
         "coordinates": [17.079487254474895,51.119095836190766],
@@ -538,7 +538,7 @@
         "properties": {
         "title":  "Plac zabaw",
             "description": "",
-                "id": 46
+                "id": 35
     },
         "geometry": {
         "coordinates": [17.058029582041357,51.100235305565924],

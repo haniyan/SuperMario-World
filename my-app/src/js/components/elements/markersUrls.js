@@ -32,6 +32,7 @@ import parkMamuta from '../../../assets/markers/park_mamuta.png';
 import parkTrampolin from '../../../assets/markers/park_trampolin.png';
 import placStrzegomski from '../../../assets/markers/plac_strzegomski.png';
 import placZabaw from '../../../assets/markers/plac_zabaw.png';
+import bobolandia from '../../../assets/markers/plac_zabaw.png';
 import ruinyGroduSoltysowice from '../../../assets/markers/ruiny_grodu_soltysowice.png';
 import samolotSzkoleniowoTreningowy from '../../../assets/markers/samolot_szkoleniowo_treningowy.png';
 import skyTower from '../../../assets/markers/sky_tower.png';
@@ -62,7 +63,6 @@ export const markersArray = [
     mostekPokutnic,
     motylarnia,
     movieGates,
-    muzeumMikolajaKopernika,
     muzeumMotoryzacjiTopacz,
     muzeumPowozowfrom,
     muzeumSztukiMieszczanskiej,
@@ -72,13 +72,20 @@ export const markersArray = [
     parkGrabiszynski,
     parkMamuta,
     parkTrampolin,
+    parkTrampolin,
     placStrzegomski,
     placZabaw,
-    ruinyGroduSoltysowice,
+    placZabaw,
+    placZabaw,
+    placZabaw,
+    placZabaw,
+    placZabaw,
+    ruinyGroduSoltysowice, 36
     samolotSzkoleniowoTreningowy,
     skyTower,
     stadionWroclaw,
     wiezaWidokowa,
     winnaGora,
-    zooWroclaw
+    zooWroclaw,
+    bobolandia
 ]
