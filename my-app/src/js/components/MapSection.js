@@ -5,8 +5,6 @@ import MyMarkers from "../../data/wroclaw.json";
 import MarkerBtn from '../../assets/markers/marker.png';
 
 
-
-
 export function MyMap() {
     //initial viewport info
     const [viewport, setViewport] = useState({
@@ -17,9 +15,9 @@ export function MyMap() {
         // zoom: 10,
     });
 
-    const markerHandleClick = (marker)=>{
+    const markerHandleClick = (marker) => {
 
-        console.log("ippps", marker)
+        console.log("ippps", marker.properties.id)
 
     }
 
@@ -39,7 +37,8 @@ export function MyMap() {
                     <Marker key={marker.properties.id}
                             latitude={marker.geometry.coordinates[1]}
                             longitude={marker.geometry.coordinates[0]}>
-                        <button onClick={() => markerHandleClick(marker)} style={{backgroundImage: `url(${MarkerBtn})`}} className="markerBtn"/>
+                        <button onClick={() => markerHandleClick(marker)} style={{backgroundImage: `url(${MarkerBtn})`}}
+                                className="markerBtn"/>
 
                     </Marker>)
                 )}
