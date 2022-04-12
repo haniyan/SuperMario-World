@@ -54,7 +54,7 @@
         "properties": {
             "title": "Movie Gates",
             "description": "",
-            "id": 18
+            "id": 44
         },
         "geometry": {
             "coordinates": [17.028997310517294,51.10952784193189],
@@ -130,18 +130,6 @@
         },
         "geometry": {
             "coordinates": [17.078992114224192,51.10892854402768],
-            "type": "Point"
-        }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "title": "Jaz Rędzin",
-            "description": "",
-                "id": 12
-        },
-        "geometry": {
-            "coordinates": [16.962246985388994,51.155911196386924],
             "type": "Point"
         }
     },
@@ -264,17 +252,6 @@
     },
     "geometry": {
         "coordinates": [17.04502921533447,51.236836703851836],
-            "type": "Point"
-    }
-},{
-    "type": "Feature",
-        "properties": {
-        "title": "Historyczny tramwaj",
-            "description": "",
-                "id": 23
-    },
-    "geometry": {
-        "coordinates": [16.984491230686118,51.09461156734288],
             "type": "Point"
     }
 },{

@@ -1,8 +1,11 @@
 import React, {useState} from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
+import {markersArray} from "../markersArray";
 import MyMarkers from "../../data/wroclaw.json";
-
 import MarkerBtn from '../../assets/markers/marker.png';
+
+//import funkcji klik marker
+import {markerHandleClick} from "../function/markerClick";
 
 
 export function MyMap() {
@@ -15,11 +18,7 @@ export function MyMap() {
         // zoom: 10,
     });
 
-    const markerHandleClick = (marker) => {
 
-        console.log("ippps", marker.properties.id)
-
-    }
 
 
     return (

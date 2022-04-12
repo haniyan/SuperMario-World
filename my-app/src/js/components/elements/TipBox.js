@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from "react-typical";
-// import {useState} from "react";
-// import {useTransition} from "react-spring";
+
+
 
 
 import GreenStar from '../../../assets/markers/green_star.png'
