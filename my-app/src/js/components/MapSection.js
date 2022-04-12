@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
-import {markersArray} from "../markersArray";
+import {markersArray} from "./elements/markersArray";
 import MyMarkers from "../../data/wroclaw.json";
 import MarkerBtn from '../../assets/markers/marker.png';
 

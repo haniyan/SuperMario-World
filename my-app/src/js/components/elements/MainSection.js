@@ -5,20 +5,18 @@ import MainDiv from '../../../assets/markers/main_div.png';
 import FavBtn from '../../../assets/markers/fav_btn.png';
 import iconSearch from '../../../assets/markers/ask_btn.png';
 
-import {markerHandleClick} from "../../function/markerClick";
-
 import {ThemeContext} from '../../context/ThemeContext';
-import {markersArray} from '../../markersArray';
+import {markersArray} from './markersArray';
 
 
 
 
 export const MainSection = () => {
+
      //STATE DO INFOCONTENT
     const [color, setColor] = useState('#15d326')
 
     //FUNKCJE INFOCONTENT
-
 
     const infoContentAnimation = () => {
         setTimeout(() => {
@@ -37,14 +35,12 @@ export const MainSection = () => {
         setHide(true)
     }
 
-    //przekazujemy kontekst do hooka i hook przechwytuje kontext najbliższego dostepnego providera, a ten przekazalam w startView
-    const theme = useContext(ThemeContext)
 
     //do infocontent
     const [hide, setHide] = useState(true)
 
     //do icon
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
 
     //icon search
     const [showSearch, setShowSearch] = useState(false)
@@ -52,12 +48,20 @@ export const MainSection = () => {
     const hideInfoContent = () => {
         setTimeout(() => {
             setHide(false)
-            setShowSearch(true)
+            // setShowSearch(true)
         }, 16000)
     }
 
 
+    //przekazujemy kontekst do hooka i hook przechwytuje kontext najbliższego dostepnego providera, a ten przekazalam w startView
+    const theme = useContext(ThemeContext)
+
+    // console.log(markersArray)
+    console.log(markersArray[theme])
+
     return (
+
+
         infoContentAnimation(),
             hideInfoContent(),
 
@@ -70,28 +74,28 @@ export const MainSection = () => {
                         // <div className="icon" style={{backgroundImage: `url(${FavBtn}`}}/> : null
                 }
 
-                {
-                    showSearch ? <div className="iconSearch" style={{backgroundImage: `url(${iconSearch}`}}/> : null
-                }
+                {/*{*/}
+                {/*    showSearch ? <div className="iconSearch" style={{backgroundImage: `url(${iconSearch}`}}/> : null*/}
+                {/*}*/}
 
 
-                {
+                {/*{*/}
 
-                    hide ?
-                        <h1 className="infoContent" style={{color: `${color}`, fontSize: "40px", textAlign: "center"}}>
-                            <Typical
-                                loop={1}
-                                wrapper="b"
-                                steps={
-                                    ["CO ROBIĆ WE WROCŁAWIU?",
-                                        6000,
-                                        "WYBIERZ LOSOWE MIEJSCE NA MAPIE",
-                                         6000,
-                                    ]
-                                }/>
+                {/*    hide ?*/}
+                {/*        <h1 className="infoContent" style={{color: `${color}`, fontSize: "40px", textAlign: "center"}}>*/}
+                {/*            <Typical*/}
+                {/*                loop={1}*/}
+                {/*                wrapper="b"*/}
+                {/*                steps={*/}
+                {/*                    ["CO ROBIĆ WE WROCŁAWIU?",*/}
+                {/*                        6000,*/}
+                {/*                        "WYBIERZ LOSOWE MIEJSCE NA MAPIE",*/}
+                {/*                         6000,*/}
+                {/*                    ]*/}
+                {/*                }/>*/}
 
-                        </h1> : null
-                }
+                {/*        </h1> : null*/}
+                {/*}*/}
 
                 <div className="infoBox" style={{backgroundImage: `url(${MainDiv})`}}/>
             </div>
