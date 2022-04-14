@@ -7,14 +7,34 @@ body {
   width: 100%;
   height: 100vh;
 
+  background:
+          linear-gradient(#1b60de, transparent),
+          linear-gradient(to top left, lime, transparent),
+          linear-gradient(to top right, #f52e54, transparent);
+  background-blend-mode: screen;
 
   .windowApp {
-    width: 1400px;
-    height: 55vh;
+    border-radius: 20px;
+    width: 90vw;
+    max-width: 1800px;
+    height: 68vh;
     display: flex;
+    padding: 2rem 2rem 5rem 0;
     background-position: center;
     background-size: cover;
 
+    position: relative;
+
+
+    border-radius: 50% 50% 0% 0% / 5% 5% 0% 0%;
+    color: white;
+    box-shadow: 20px 20px rgba(0, 0, 0, .15);
+    transition: all .4s ease;
+
+    &:hover {
+      border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+      box-shadow: 10px 10px rgba(0, 0, 0, .25);
+    }
 
     .leftColumn {
 
@@ -44,9 +64,9 @@ body {
         justify-content: center;
 
         .tipBox, .addToFavBox {
-          width: 400px;
+          width: 500px;
           height: 200px;
-          margin: 5rem;
+          margin: 3rem;
 
 
         }
@@ -66,12 +86,13 @@ body {
         justify-content: flex-end;
         align-items: flex-start;
         height: 10%;
-        margin-top: 2px;
+        margin: 15px;
 
         .searchBtn {
           width: 65px;
           height: 65px;
           margin: 0 0.5rem 2rem 0;
+
           background-repeat: no-repeat;
           background-size: cover;
           cursor: pointer;
@@ -113,6 +134,7 @@ body {
         align-items: center;
 
         width: 100%;
+
         height: 90%;
 
         border-radius: 30px;
@@ -123,7 +145,7 @@ body {
         background-color: rgba(255, 255, 255, 0.88);
 
         position: relative;
-        //z-index: 1;
+
 
         .addToFav {
           height: 40px;
@@ -164,19 +186,19 @@ body {
 
         .iconSearch {
 
-          height: 180px;
-          width: 180px;
+          height: 10rem;
+          width: 10rem;
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
-          transform: rotateY(180deg);
+          transform: rotateY(90deg);
           margin-left: 2rem;
           cursor: pointer;
           backface-visibility: visible !important;
           animation: rotateSearch 3s linear infinite;
-          //&:hover{
-          //  animation: flip 2s ease infinite;
-          //}
+          &:hover{
+            animation: flip 2s ease infinite;
+          }
 
         }
 
@@ -185,7 +207,7 @@ body {
           justify-content: center;
           align-items: center;
           color: #15d326;
-          font-size: 3rem;
+          font-size: 2.8rem;
           line-height: 1.5;
           font-family: 'Rubik Moonrocks', cursive;
 
@@ -303,6 +325,30 @@ body {
   }
 }
 
+
+@keyframes flip {
+  0% {
+    transform: perspective(900px) rotateY(0);
+    animation-timing-function: ease-out;
+  }
+  40% {
+    transform: perspective(900px) translateZ(150px) rotateY(170deg);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: perspective(900px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+  80% {
+    transform: perspective(900px) rotateY(360deg) scale(.95);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: perspective(900px) scale(1);
+    animation-timing-function: ease-in;
+  }
+}
+
 @keyframes hithere {
   30% {
     transform: scale(1.2);
@@ -320,3 +366,4 @@ body {
     transform: scale(1);
   }
 }
+

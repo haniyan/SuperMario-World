@@ -4,11 +4,13 @@ import {MyMap} from "./MapSection";
 import {ThemeContext} from "../context/ThemeContext";
 
 
+
 // import MapSection from "./MapSection";
 
 export const LeftColumn = () => {
 
     const theme = useContext(ThemeContext);
+
     return (
 
             <div className="leftColumn">

@@ -7,6 +7,9 @@ export const TipSection = () => {
 
 
     const [hide, setHide] = useState(false)
+
+    //zasetowac na true po kliknięciu w przycisk z main section add to fav
+
     const [show, setShow] = useState(false)
 
     const showTipBox =()=>{
@@ -30,6 +33,7 @@ export const TipSection = () => {
             }
 
             {/*<TipBox/>*/}
+
         </div>
     );
 };
