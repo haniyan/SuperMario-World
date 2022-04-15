@@ -7,10 +7,9 @@ body {
   width: 100%;
   height: 100vh;
 
-  background:
-          linear-gradient(#1b60de, transparent),
-          linear-gradient(to top left, lime, transparent),
-          linear-gradient(to top right, #f52e54, transparent);
+  background: linear-gradient(#1b60de, transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, #f52e54, transparent);
   background-blend-mode: screen;
 
   .windowApp {
@@ -49,8 +48,9 @@ body {
         justify-content: center;
 
         #map {
-          height: 80%;
-          width: 80%;
+          height: 90%;
+          width: 94%;
+
 
         }
       }
@@ -172,15 +172,15 @@ body {
 
         .icon {
           border: 1px solid red;
-          height: 180px;
-          width: 180px;
+          height: 13rem;
+          width:13rem;
           margin-left: 2rem;
 
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
 
-          animation: hithere 3s ease infinite;
+          animation: float1 3s ease infinite;
 
         }
 
@@ -196,7 +196,8 @@ body {
           cursor: pointer;
           backface-visibility: visible !important;
           animation: rotateSearch 3s linear infinite;
-          &:hover{
+
+          &:hover {
             animation: flip 2s ease infinite;
           }
 
@@ -367,3 +368,17 @@ body {
   }
 }
 
+@keyframes float1 {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}

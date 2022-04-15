@@ -7,6 +7,7 @@ import iconSearch from '../../../assets/markers/ask_btn.png';
 
 import {ThemeContext} from '../../context/ThemeContext';
 import {markersArray} from './markersArray';
+import {AddToFavBox} from "./AddToFavBox";
 
 
 export const MainSection = () => {
@@ -18,8 +19,6 @@ export const MainSection = () => {
 
     const infoContentAnimation = () => {
         setTimeout(() => {
-
-
         }, 8500)
 
     }
@@ -56,6 +55,16 @@ export const MainSection = () => {
     // console.log(markersArray)
     console.log(markersArray[theme])
 
+    const addToFavouritePlaces = ()=>{
+    //    parametry jakie będę przekazywała do kon tekstu, żeby pokazać
+
+    }
+
+
+    const { place, setPlace } = useContext(ThemeContext);
+
+    console.log("markerarray[place]", markersArray[place])
+
     return (
 
 
@@ -63,10 +72,10 @@ export const MainSection = () => {
 
 
             <div className="mainSection">
-                <button className="addToFav" style={{backgroundImage: `url(${FavBtn})`}}/>
+                <button className="addToFav" style={{backgroundImage: `url(${FavBtn})`}} onClick={addToFavouritePlaces}/>
                 {/*{*/}
                 {/*    show ?*/}
-                {/*        <div className="icon" style={{backgroundImage: markersArray[theme]}}/> : null*/}
+                {/*        <div className="icon" style={{backgroundImage: markersArray[place]}}/> : null*/}
                 {/*    //pomocnicze*/}
                 {/*    // <div className="icon" style={{backgroundImage: `url(${FavBtn}`}}/> : null*/}
                 {/*}*/}
@@ -77,7 +86,6 @@ export const MainSection = () => {
 
 
                 {
-
                     hide ?
                         <h1 className="infoContent" style={{color: `${color}`, fontSize: "40px", textAlign: "center"}}>
                             <Typical
@@ -95,6 +103,7 @@ export const MainSection = () => {
                 }
 
                 <div className="infoBox" style={{backgroundImage: `url(${MainDiv})`}}/>
+
             </div>
     );
 };

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useMemo, useState} from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
 import {markersArray} from "./elements/markersArray";
 import MyMarkers from "../../data/wroclaw.json";
@@ -24,6 +24,7 @@ export function MyMap() {
     });
 
 
+
     return (
 
         <>
@@ -33,7 +34,6 @@ export function MyMap() {
                         onViewportChange={(viewport) => {
                             setViewport(viewport)
                         }}
-
                            >
                 {MyMarkers.features.map(marker => (
                     <Marker key={marker.properties.id}

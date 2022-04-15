@@ -5,6 +5,10 @@ import FavBtn from '../../../assets/markers/fav_btn.png';
 export const AddToFavBox = () => {
 
 
+
+
+
+
     return (
 
         <div className="addToFavBox">

@@ -4,7 +4,6 @@ import {MyMap} from "./MapSection";
 import {ThemeContext} from "../context/ThemeContext";
 
 
-
 // import MapSection from "./MapSection";
 
 export const LeftColumn = () => {
@@ -13,15 +12,17 @@ export const LeftColumn = () => {
 
     return (
 
-            <div className="leftColumn">
-                <div className="mapSection">
+        <div className="leftColumn">
+            <div className="mapSection">
+                <div className="mapdiv">
                     <div id="map">
                         <MyMap/>
                     </div>
                 </div>
-                <TipSection/>
-
             </div>
+            <TipSection/>
+
+        </div>
 
     )
 }
