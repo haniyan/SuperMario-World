@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from "react";
+import React, {useMemo, useState, useContext } from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
 import {markersArray} from "./elements/markersArray";
 import MyMarkers from "../../data/wroclaw.json";
@@ -15,6 +15,8 @@ import {markerHandleClick} from "../function/markerClick";
 
 export function MyMap() {
     //initial viewport info
+    const {setPlace} = useContext(ThemeContext);
+
     const [viewport, setViewport] = useState({
         latitude: 51.107883,
         longitude: 17.038538,
@@ -22,6 +24,17 @@ export function MyMap() {
         height: "531px",
 
     });
+
+    const markerHandleClick = (marker) => {
+
+        const theme = marker.properties.id;
+
+        console.log(theme, typeof(theme))
+        console.log(marker.geometry.coordinates[0],marker.geometry.coordinates[1])
+
+        setPlace(theme)
+    }
+
 
 
 
@@ -34,7 +47,7 @@ export function MyMap() {
                         onViewportChange={(viewport) => {
                             setViewport(viewport)
                         }}
-                           >
+            >
                 {MyMarkers.features.map(marker => (
                     <Marker key={marker.properties.id}
                             latitude={marker.geometry.coordinates[1]}

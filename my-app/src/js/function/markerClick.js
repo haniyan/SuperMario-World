@@ -1,4 +1,3 @@
-
 export const markerHandleClick = (marker) => {
 
     const theme = marker.properties.id;

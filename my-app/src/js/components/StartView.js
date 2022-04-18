@@ -17,10 +17,10 @@ export const StartView = () => {
 
     return (
         <ThemeContext.Provider value={value}>
-        <div className="windowApp" style={{backgroundImage: `url(${BackgroundImage})`}}>
-            <LeftColumn/>
-            <RightColumn/>
-        </div></ThemeContext.Provider>
+            <div className="windowApp" style={{backgroundImage: `url(${BackgroundImage})`}}>
+                <LeftColumn/>
+                <RightColumn/>
+            </div></ThemeContext.Provider>
     )
 
 }
