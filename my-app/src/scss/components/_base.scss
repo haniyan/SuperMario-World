@@ -171,12 +171,13 @@ body {
         }
 
         .icon {
-          border: 1px solid red;
-          height: 13rem;
-          width:13rem;
+          height: 17rem;
+          width:17rem;
           margin-left: 2rem;
+          border-radius: 7rem;
 
-          background-size: cover;
+
+          background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
 
