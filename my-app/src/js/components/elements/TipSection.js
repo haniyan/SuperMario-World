@@ -1,38 +1,34 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {TipBox} from "./TipBox";
-import {AddToFavBox} from "./AddToFavBox";
-
 
 export const TipSection = () => {
-
-
-    const [hide, setHide] = useState(false)
-
-    //zasetowac na true po kliknięciu w przycisk z main section add to fav
-
-    const [show, setShow] = useState(false)
+    const [tipHide, setTipHide] = useState(false)
 
     const showTipBox =()=>{
         setTimeout(()=>{
-            setHide(true)
+            setTipHide(true)
+
+        }, 8000)
+    }
+    const hideTipBox =()=>{
+        setTimeout(()=>{
+            setTipHide(false)
+
         }, 16000)
     }
 
+    useEffect(() => {
+        showTipBox()
+        hideTipBox()
+    }, []);
+
 
     return (
-        showTipBox(),
-
         <div className="tipSection">
             {
-                show ?
-                    <AddToFavBox/> : null
-            }
-            {
-                hide ?
+                tipHide ?
                     <TipBox/> : null
             }
-
-            {/*<TipBox/>*/}
 
         </div>
     );

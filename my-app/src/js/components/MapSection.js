@@ -3,19 +3,17 @@ import ReactMapGL, {Marker} from "react-map-gl";
 import {markersArray} from "./elements/markersArray";
 import MyMarkers from "../../data/wroclaw.json";
 import MarkerBtn from '../../assets/markers/marker.png';
-import Style from "../mapboxStyleFiles/style.json";
 import {ThemeContext} from "../context/ThemeContext";
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 import Map, {NavigationControl} from 'react-map-gl';
 
-//import funkcji klik marker
-import {markerHandleClick} from "../function/markerClick";
 
 
 export function MyMap() {
     //initial viewport info
     const {setPlace} = useContext(ThemeContext);
+    const {setShowIcon} = useContext(ThemeContext);
 
     const [viewport, setViewport] = useState({
         latitude: 51.107883,
@@ -33,6 +31,7 @@ export function MyMap() {
         console.log(marker.geometry.coordinates[0],marker.geometry.coordinates[1])
 
         setPlace(theme)
+
     }
 
 

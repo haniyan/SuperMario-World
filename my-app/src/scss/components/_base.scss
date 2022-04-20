@@ -64,8 +64,8 @@ body {
         justify-content: center;
 
         .tipBox, .addToFavBox {
-          width: 500px;
-          height: 200px;
+          width: 30rem;
+          height: 12rem;
           margin: 3rem;
 
 
@@ -147,34 +147,10 @@ body {
         position: relative;
 
 
-        .addToFav {
-          height: 40px;
-          width: 40px;
-          padding: 0;
-          margin-top: 15px;
-          margin-right: 15px;
-          position: absolute;
-          top: 0;
-
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: center;
-          display: block;
-          align-self: end;
-          cursor: pointer;
-
-          &:hover {
-
-            animation: rotate 2s infinite;
-          }
-
-        }
-
         .icon {
-          height: 17rem;
-          width:17rem;
+          height: 15rem;
+          width:15rem;
           margin-left: 2rem;
-          border-radius: 7rem;
 
 
           background-size: contain;
@@ -194,7 +170,6 @@ body {
           background-position: center;
           transform: rotateY(90deg);
           margin-left: 2rem;
-          cursor: pointer;
           backface-visibility: visible !important;
           animation: rotateSearch 3s linear infinite;
 

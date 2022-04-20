@@ -1,17 +1,16 @@
-import React, {useContext} from "react";
+import React, {useContext, useMemo, useState} from "react";
 import {TipSection} from "./elements/TipSection";
 import {MyMap} from "./MapSection";
-import {ThemeContext} from "../context/ThemeContext";
+import {AddToFavBox} from "./elements/AddToFavBox";
 
-
-// import MapSection from "./MapSection";
 
 export const LeftColumn = () => {
 
-    const theme = useContext(ThemeContext);
+
+
+
 
     return (
-
         <div className="leftColumn">
             <div className="mapSection">
                 <div className="mapdiv">
@@ -23,7 +22,6 @@ export const LeftColumn = () => {
             <TipSection/>
 
         </div>
-
     )
 }
 
