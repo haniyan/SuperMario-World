@@ -1,12 +1,11 @@
 import React, {useContext} from 'react';
-import FavBtn from '../../../assets/markers/fav_btn.png';
-import {ThemeContext} from "../../context/ThemeContext";
-import {markersArray} from "./markersArray";
+import {MapPlaceContext} from "../../context/MapPlaceContext";
+import {markersArray} from "../LeftColumn/markersArray";
 
 
 export const AddToFavBox = () => {
 
-    const {place} = useContext(ThemeContext)
+    const {place} = useContext(MapPlaceContext)
 
     return (
 
@@ -17,11 +16,6 @@ export const AddToFavBox = () => {
                     `${place}` ?
                         <div className="addToFav" style={{backgroundImage: markersArray[place]}}/>  : null
                 }
-
-
-
-
-
 
             </div>
         </div>

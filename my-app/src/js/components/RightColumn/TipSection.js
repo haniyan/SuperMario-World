@@ -4,18 +4,19 @@ import {TipBox} from "./TipBox";
 export const TipSection = () => {
     const [tipHide, setTipHide] = useState(false)
 
-    const showTipBox =()=>{
-        setTimeout(()=>{
+    const showTipBox = () => {
+        setTimeout(() => {
             setTipHide(true)
 
         }, 8000)
     }
-    const hideTipBox =()=>{
-        setTimeout(()=>{
+    const hideTipBox = () => {
+        setTimeout(() => {
             setTipHide(false)
 
-        }, 16000)
+        }, 30000)
     }
+
 
     useEffect(() => {
         showTipBox()
@@ -26,10 +27,8 @@ export const TipSection = () => {
     return (
         <div className="tipSection">
             {
-                tipHide ?
-                    <TipBox/> : null
+                tipHide ? <TipBox/> : null
             }
-
         </div>
     );
 };

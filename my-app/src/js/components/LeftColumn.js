@@ -1,15 +1,10 @@
 import React, {useContext, useMemo, useState} from "react";
-import {TipSection} from "./elements/TipSection";
-import {MyMap} from "./MapSection";
-import {AddToFavBox} from "./elements/AddToFavBox";
+import {TipSection} from "./RightColumn/TipSection";
+import {MyMap} from "./LeftColumn/MapSection";
+// import {AddToFavBox} from "./futureAdds/AddToFavBox";
 
 
 export const LeftColumn = () => {
-
-
-
-
-
     return (
         <div className="leftColumn">
             <div className="mapSection">

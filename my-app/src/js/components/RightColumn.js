@@ -1,7 +1,6 @@
 import React from "react";
-import {MainSection} from "./elements/MainSection";
-import {BtnSection} from "./elements/BtnSection";
-import {ThemeContext} from '../context/ThemeContext';
+import {MainSection} from "./RightColumn/MainSection";
+import {BtnSection} from "./RightColumn/BtnSection";
 
 export const RightColumn = () => {
     return (

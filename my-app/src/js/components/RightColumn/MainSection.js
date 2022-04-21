@@ -1,9 +1,9 @@
 import React, {useContext, useState, useEffect} from "react";
 import Typical from "react-typical";
 import MainDiv from '../../../assets/markers/main_div.png';
-import iconSearch from '../../../assets/markers/ask_btn.png';
-import {ThemeContext} from '../../context/ThemeContext';
-import {markersArray} from './markersArray';
+import iconSearch from '../../../assets/markers/check_out.png';
+import {MapPlaceContext} from '../../context/MapPlaceContext';
+import {markersArray} from '../LeftColumn/markersArray';
 
 
 export const MainSection = () => {
@@ -25,33 +25,28 @@ export const MainSection = () => {
         }, 30000)
     }
 
-    useEffect(() => {
-        infoContentAnimation()
-    }, []);
-
-
     const hideInfoContentElements = () => {
         setHideContent(false)
     }
     const showSearchElement = () => {
         setShowSearch(true)
-        console.log("pokazuje")
     }
     const hideSearchElement = () => {
         setShowSearch(false)
-        console.log("chowam")
     }
     const showIconElement = () => {
         setShowIcon(true)
     }
 
+    useEffect(() => {
+        infoContentAnimation()
+    }, []);
 
-    const {place} = useContext(ThemeContext)
+    const {place} = useContext(MapPlaceContext)
 
 
     return (
         <div className="mainSection">
-
             {
                 showIcon ?
                     <div className="icon" style={{backgroundImage: markersArray[place]}}/> : null
@@ -75,9 +70,7 @@ export const MainSection = () => {
 
                     </h1> : null
             }
-
             <div className="infoBox" style={{backgroundImage: `url(${MainDiv})`}}/>
-
         </div>
     );
 }

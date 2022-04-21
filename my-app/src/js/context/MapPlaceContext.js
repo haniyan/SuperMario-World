@@ -1,7 +1,6 @@
 import {createContext} from "react";
 
-export const ThemeContext = createContext(
-    //pokazanie miejsca z mapy
+export const MapPlaceContext = createContext(
     {place: "",
     setPlace: () => {},
     });

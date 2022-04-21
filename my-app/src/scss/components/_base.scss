@@ -67,7 +67,38 @@ body {
           width: 30rem;
           height: 12rem;
           margin: 3rem;
+        }
 
+
+        .tipBox {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          border-radius: 30px;
+
+          -webkit-box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+          -moz-box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+          box-shadow: 12px 16px 24px -7px rgba(102, 215, 233, 1);
+          background-color: rgba(255, 255, 255, 0.88);
+
+          .icon {
+
+            height: 60%;
+            width: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+
+          }
+
+          .tipText {
+            margin-top: 20px;
+            height: 50%;
+            width: 100%;
+            font-family: 'Rubik Moonrocks', cursive;
+          }
 
         }
 
@@ -299,48 +330,6 @@ body {
   100% {
     transform: perspective(900px) scale(1);
     animation-timing-function: ease-in;
-  }
-}
-
-
-@keyframes flip {
-  0% {
-    transform: perspective(900px) rotateY(0);
-    animation-timing-function: ease-out;
-  }
-  40% {
-    transform: perspective(900px) translateZ(150px) rotateY(170deg);
-    animation-timing-function: ease-out;
-  }
-  50% {
-    transform: perspective(900px) translateZ(150px) rotateY(190deg) scale(1);
-    animation-timing-function: ease-in;
-  }
-  80% {
-    transform: perspective(900px) rotateY(360deg) scale(.95);
-    animation-timing-function: ease-in;
-  }
-  100% {
-    transform: perspective(900px) scale(1);
-    animation-timing-function: ease-in;
-  }
-}
-
-@keyframes hithere {
-  30% {
-    transform: scale(1.2);
-  }
-  40%, 60% {
-    transform: rotate(-20deg) scale(1.2);
-  }
-  50% {
-    transform: rotate(20deg) scale(1.2);
-  }
-  70% {
-    transform: rotate(0deg) scale(1.2);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 
