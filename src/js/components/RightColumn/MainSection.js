@@ -13,18 +13,6 @@ export const MainSection = () => {
     const [showSearch, setShowSearch] = useState(false)
     const [showIcon, setShowIcon] = useState(false)
 
-    const infoContentAnimation = () => {
-        setTimeout(() => {
-            hideInfoContentElements()
-            showSearchElement()
-
-        }, 16000)
-        setTimeout(() => {
-            showIconElement()
-            hideSearchElement()
-        }, 30000)
-    }
-
     const hideInfoContentElements = () => {
         setHideContent(false)
     }
@@ -39,7 +27,15 @@ export const MainSection = () => {
     }
 
     useEffect(() => {
-        infoContentAnimation()
+        setTimeout(() => {
+            hideInfoContentElements()
+            showSearchElement()
+
+        }, 16000)
+        setTimeout(() => {
+            showIconElement()
+            hideSearchElement()
+        }, 30000)
     }, []);
 
     const {place} = useContext(MapPlaceContext)
