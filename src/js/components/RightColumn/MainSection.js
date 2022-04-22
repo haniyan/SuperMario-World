@@ -8,7 +8,7 @@ import {markersArray} from '../LeftColumn/markersArray';
 
 export const MainSection = () => {
 
-    const [color, setColor] = useState('#15d326')
+    const color='#15d326'
     const [hideContent, setHideContent] = useState(true)
     const [showSearch, setShowSearch] = useState(false)
     const [showIcon, setShowIcon] = useState(false)
