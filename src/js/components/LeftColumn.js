@@ -1,4 +1,4 @@
-import React, {useContext, useMemo, useState} from "react";
+import React from "react";
 import {TipSection} from "./RightColumn/TipSection";
 import {MyMap} from "./LeftColumn/MapSection";
 // import {AddToFavBox} from "./futureAdds/AddToFavBox";

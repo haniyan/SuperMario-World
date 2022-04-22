@@ -1,6 +1,6 @@
-import React, {useMemo, useState, useContext} from "react";
+import React, {useState, useContext} from "react";
 import ReactMapGL, {Marker} from "react-map-gl";
-import Map, {NavigationControl} from 'react-map-gl';
+import {NavigationControl} from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import MyMarkers from "../../../data/wroclaw.json";
 import MarkerBtn from '../../../assets/markers/marker.png';
